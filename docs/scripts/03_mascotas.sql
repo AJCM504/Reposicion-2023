@@ -1,0 +1,6 @@
+CREATE TABLE Mascotas (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    status CHAR(1),
+    edad INT,
+    raza VARCHAR(255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
